@@ -64,7 +64,6 @@ export class TaskController {
   @ApiOperation({ summary: 'Delete a task by ID' })
   @ApiParam({ name: 'id', type: Number })
   remove(@Param('id') id: number) {
-    this.taskService.remove(id);
-    return 'Task deleted successfully';
+    return this.taskService.remove(id);
   }
 }
