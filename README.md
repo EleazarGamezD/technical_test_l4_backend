@@ -13,7 +13,7 @@ This is a Task Management System built with NestJS. It allows you to create, rea
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo/tecnical_test_l4_backend.git
+   git clone https://github.com/EleazarGamezD/tecnical_test_l4_backend.git
    cd tecnical_test_l4_backend
    ```
 
