@@ -1,0 +1,84 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": false,
+    // "**/node_modules": false,
+    "**/bower_components": true,
+    "**/dist": false
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    //  "**/node_modules/**": true,
+    "**/tmp/**": false,
+    "**/bower_components/**": true,
+    "**/dist/**": false
+  },
+  /* "editor.minimap.enabled": false, */ // Disable minimap default true
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.linkedEditing": true,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "explorer.compactFolders": false,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+  "redhat.telemetry.enabled": false,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.experimental.showMoves": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "html.format.extraLiners": "",
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "editor.formatOnSave": "always"
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 120,
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true
+  },
+  "console-ninja.featureSet": "Community",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.env.windows": {},
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.editorDecoration.enabled": true,
+  "editor.cursorSurroundingLines": 0
+}
